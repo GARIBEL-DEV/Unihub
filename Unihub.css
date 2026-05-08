@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+        
+}
+
+.links{
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a:hover{
+    transition: 0.7s ease;
+    background: linear-gradient(90deg, #8a2be2,#5f5cff,#3a8dff,#00bfff,#00e5c3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.logo img {
+    height: 60px;
+    transform: scale(1.5);
+    transform-origin: center;
+}
+
+.paginas {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    width: 30%;
+    font-size: 25px;
+    
+}
+.paginas a{
+    text-decoration: none;
+    color: #dadada;
+}
+
+/* cores para letras
+{
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(90deg, #8a2be2,#5f5cff,#3a8dff,#00bfff,#00e5c3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}*/
+
+.conta i {
+    text-decoration: none;
+    background: linear-gradient(90deg, #8a2be2,#5f5cff,#3a8dff,#00bfff,#00e5c3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 30px;
+}
+
+.container1 {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    color: #dadada;
+}
+
+.texto {  
+    width: 600px;
+    background-color: rgb(0, 0, 0); 
+    padding: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto h1{
+    font-size: 90px;
+}
+
+.texto hr{
+    width: 300px;
+    border: none;
+    height: 2px;
+    background: linear-gradient( 90deg,#8a2be2,#5f5cff,#3a8dff,#00bfff,#00e5c3);
+}
+
+
+
+.texto h2{
+    font-size: 45px;
+}
+
+.texto p{
+    color: #6c53fa;
+    width: 450px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.texto button{
+    background-color: #dadada;
+    margin-top: 10px;
+    padding: 4px;
+    cursor: pointer;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.7s ease;
+}
+
+.texto button i{
+    font-size: 25px;
+    transition: 0.7s ease;
+}
+
+/* Hover no botão */
+.texto button:hover{
+    background-color: #000;
+    box-shadow:
+    0 0 5px rgba(120, 80, 255, 0.12),
+    0 0 10px rgba(0, 170, 255, 0.24),
+    0 0 15px rgba(0, 215, 255, 0.34),
+    0 0 20px rgba(0, 255, 210, 0.32);
+}
+
+/* Gradiente no foguete */
+.texto button:hover i{
+    background: linear-gradient(90deg, #8a2be2, #5f5cff, #3a8dff, #00bfff, #00e5c3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.container1 img{
+    margin-right: 30px;
+    border-radius: 50px;    
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
